@@ -11,76 +11,61 @@ This project aimed to design an Automated Guided Vehicle (AGV) using the Paralla
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Project Requirements](#project-requirements)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Setup Instructions and Usage](#setup-instructions-and-usage)
 
 ## Introduction
 
-The project encompasses hardware integration, navigation, object identification, electrical connections, and control logic. It involves navigating a predefined map to assist warehouse management in widget identification. The project objectives include accurate line following, intersection detection, handling directional aids, managing widget stations, counting widgets, reaching the docking station, and displaying the total widget count. These objectives guide the robot's functionality.
+In this project, we are tasked with designing an Automated Guided Vehicle (AGV) that can navigate through a factory floor to pick up widgets from one location and drop them off at another, while adhering to lane rules, detecting intersections, avoiding obstacles, and performing various tasks autonomously.
 
+## Project Requirements
+
+The project requirements include designing an AGV that can:
+- Follow the designated path on the factory floor, navigating through intersections and lanes.
+- Detect and indicate intersections using appropriate displays.
+- Avoid obstacles dynamically introduced in its path.
+- Reduce speed visibly while traversing pickup and drop-off lanes.
+- Reach randomly assigned pickup and drop-off locations, indicating successful arrival.
+- Calculate and display the distance traveled between pickup and drop-off locations.
+- Detect, indicate, and stop at dynamic obstacles in pickup and drop-off lanes.
+  
 ## Hardware Requirements
 
 List all the hardware components required for the project, including but not limited to:
 - Chassis and mechanical components
-- Raspberry Pi 3B
-- Raspberry PI Camera
 - Parallax Propeller microcontroller
-- Aruco Tag Markers
 - 2 x Continous Servo Motors
 - Pulolo Reflecance Sensor
-- 2 x Ultrasonic Sensors
+- 3 x Ultrasonic Sensors
 - Parallax 2 X 16 Serial LCD With Piezo Speaker 
 - Power supply
 - Breadboard
 - Wires
 - Leds
-- Etc.
 
 ## Software Requirements
 
-Specify all the software dependencies needed to run the project, including but not limited to:
-- Parallax Propeller Toolchain
-- SimpleIDE or PropellerIDE for development
-- Propeller C libraries (simpletools, servo, ping)
-- Raspbian OS
-- Python 3.9 installed on the Raspberry Pi
-- Python Library (OpenCv, Numpy)
-- RPi.GPIO library for controlling GPIO pins (RPi.GPIO)
+The software components required for the project include:
+- Control algorithms for line following and intersection detection.
+- Obstacle avoidance algorithms.
+- Speed control algorithms for reducing speed in pickup and drop-off lanes.
+- Logic for indicating successful pickup and drop-off.
+- Distance calculation algorithms.
+- Error handling and recovery mechanisms for dynamic obstacles.
 
-## Setup Instructions
-# Raspberry Pi Setup
-- Connect the camera module to the Raspberry Pi.
-- Install Python 3.x on the Raspberry Pi if not already installed.
-- Install OpenCV and NumPy libraries for Python on the Raspberry Pi.
-- Install the RPi.GPIO library for controlling GPIO pins.
-- Clone or download the project repository to the Raspberry Pi.
-- Connect the GPIO pins to external devices such as LEDs and motor drivers as per the circuit diagram provided.
-- Adjust the circuit connections and GPIO pin configurations in the code based on your use case.
+## Setup Instructions and Usage
 
-# Parallax Properller Setup
-- Connect the Parallax Propeller microcontroller to your computer.
-- Install the Parallax Propeller Toolchain and SimpleIDE or PropellerIDE.
-- Clone or download the project repository to local device.
-- Open the project in SimpleIDE or PropellerIDE.
-- Compile and upload the properller code to the Parallax Propeller microcontroller.
+To set up and use the AGV system effectively, follow these steps:
+- Assemble the hardware components according to the provided instructions.
+- Install the necessary software libraries and dependencies on the microcontroller platform being used.
+- Upload the provided codebase onto the microcontroller.
+- Calibrate the sensors and actuators to ensure proper functionality.
+- Place the AGV at the starting position (home location S) on the factory floor.
+- Run the AGV system and observe its behavior as it navigates through the designated path, detects intersections, avoids obstacles, picks up and drops off widgets, and displays relevant information.
+- Monitor and troubleshoot any issues that arise during operation, making adjustments to the hardware or software as necessary.
+- Demonstrate the AGV system to the project evaluators, showcasing its autonomous capabilities and adherence to the specified requirements.
 
-# Integration
-- Connect raspberry pi to properller based on pin connection in code files respectively. 
-
-## Usage
-
-Once the code is uploaded to the microcontroller and the hardware is assembled, follow these steps to use the robot:
-
-- Power on the robot.
-- The robot will perform initialization routines, including sensor calibration.
-- Depending on the mode of operation, the robot will perform tasks such as line following, obstacle avoidance, or intersection handling.
-- Monitor the status LEDs to understand the system's behavior.
-- Refer to the code documentation for specific functionality and control options.
-
-## Contributing
-
-Include guidelines for contributing to the project, such as how to report bugs, submit patches, or suggest improvements. Mention any coding standards or conventions to follow.
+By following these instructions, you can successfully implement and demonstrate the AGV system for the Propeller Project, fulfilling all project requirements and achieving a high grade in the evaluation process.
 
