@@ -8,7 +8,7 @@ This project aimed to design an Automated Guided Vehicle (AGV) using the Paralla
 # Robot Demo
 
 <p align="center">
-  <img src="https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/1f4b8f3c-ea03-4fb7-ba61-6df783df34a1" alt="Your Image Description">
+  <img src="https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/1f4b8f3c-ea03-4fb7-ba61-6df783df34a1" alt="Your Image Description" width="600">
 </p>
 
 ## Table of Contents
