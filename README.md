@@ -6,7 +6,10 @@ This project aimed to design an Automated Guided Vehicle (AGV) using the Paralla
 ![factory_layout](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/166a0aa9-6595-4ca9-8fe7-8980b6d10093)
 
 # Robot Demo
-![Untitled video - Made with Clipchamp (7)](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/1f4b8f3c-ea03-4fb7-ba61-6df783df34a1)
+
+<p align="center">
+  <img src="https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/1f4b8f3c-ea03-4fb7-ba61-6df783df34a1" alt="Your Image Description">
+</p>
 
 ## Table of Contents
 
