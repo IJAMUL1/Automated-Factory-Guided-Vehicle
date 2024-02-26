@@ -1,12 +1,12 @@
 # Automated_Factory_Guided_Vehicle
 
-This project aims to create a warehouse assistive robot controlled by a Raspberry Pi 3B and a Parallax Propeller multicore Microcontroller. The robot was designed to navigate the warehouse and identify defective and non-defective widgets in the warehouse using image processing to identify directional aids and Aruco tag markers to identify defective and non-defective inventory.
+This project aimed to design an Automated Guided Vehicle (AGV) using the Parallax Propeller Activity Board WX. The AGV's functionality includes moving widgets from random pickup locations to random drop-off locations. It employs various devices, including infrared sensors, ultrasonic sensors, servos, LEDs, and an LCD.
 
-# Warehouse Layout
-![warehouse layout](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/f6ec4f6d-da96-4e24-85f9-ae792edc9d51)
+# Factory Layout
+![factory_layout](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/166a0aa9-6595-4ca9-8fe7-8980b6d10093)
 
 # Robot Demo
-![Untitled video - Made with Clipchamp (1)](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690)
+![Untitled video - Made with Clipchamp (7)](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/1f4b8f3c-ea03-4fb7-ba61-6df783df34a1)
 
 ## Table of Contents
 
